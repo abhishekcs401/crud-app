@@ -1,8 +1,8 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
 function Posts() {
   return (
-    <div>Posts</div>
+    <Link to="postlist">nested postlist </Link>
   )
 }
 
